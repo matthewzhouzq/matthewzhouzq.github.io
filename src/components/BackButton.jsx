@@ -6,7 +6,7 @@ export default function BackButton() {
   return (
     <div className="buttons back">
       <button
-        onClick={() => navigate('/')}
+        onClick={() => navigate(-1)}
         onMouseEnter={() => (window.__UI_HOVERING__ = true)}
         onMouseLeave={() => (window.__UI_HOVERING__ = false)}
       >

@@ -12,6 +12,10 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 import Resume from './pages/Resume'
 import Contact from './pages/Contact'
+import Nodalityai from './projects/Nodalityai';
+import Tempora from './projects/Tempora';
+import LazyPaste from './projects/LazyPaste';
+import Navigatorai from './projects/Navigatorai';
 
 export default function App() {
   useEffect(() => {
@@ -44,6 +48,10 @@ export default function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/projects/Nodalityai" element={<Nodalityai />} />
+          <Route path="/projects/Tempora" element={<Tempora />} />
+          <Route path="/projects/LazyPaste" element={<LazyPaste />} />
+          <Route path="/projects/Navigatorai" element={<Navigatorai />} />
         </Routes>
       </div>
     </div>

@@ -14,7 +14,7 @@ export default function Resume() {
 
       <div className="buttons">
         <a
-          href="portfolio/src/pages/matthewzhou_cv.pdf"
+          href="/matthewzhouportfolio/matthewzhou_cv.pdf" // Updated path
           target="_blank"
           rel="noopener noreferrer"
           className="button"
